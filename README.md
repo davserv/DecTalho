@@ -42,7 +42,7 @@ chmod +x dectalho.sh && ./dectalho.sh
 
 
 ## SCREENSHOT
-![screenshot](./vesionarios/screenshot.jpg)
+![screenshot](./vesionarios/screenshotl.jpg)
 
 --------
 

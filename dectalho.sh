@@ -77,12 +77,12 @@ case "${options[$selected]}" in
 
     "DECTALHO-FIREFOX")
         echo "Executando DECTALHO-FIREFOX..."
-        chmod +x ./dectalho-linux/dectalho.sh && ./dectalho-linux/dectalho.sh
+        chmod +x ./dectalho-linux/criar-atalho-firefox.sh && ./dectalho-linux/criar-atalho-firefox.sh
         ;;
 
     "DECTALHO-CHROME")
         echo "Executando DECTALHO-CHROME..."
-        chmod +x ./dectalho-linux/chrome/dectalho.sh && ./dectalho-linux/chrome/dectalho.sh
+        chmod +x ./dectalho-linux/chrome/criar-atalho-app.sh && ./dectalho-linux/chrome/criar-atalho-app.sh
         ;;
 
     "Funcionalidade")
