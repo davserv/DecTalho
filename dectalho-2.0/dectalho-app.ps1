@@ -1,4 +1,5 @@
-﻿param(
+﻿
+param(
 
     [Parameter(Mandatory)] [string]$Nome,
     [Parameter(Mandatory)] [string]$Url,
@@ -105,22 +106,6 @@ try {
  $lnk.IconLocation = if ($temIcone) { "$lnkIcon,0" } else { "$Exe,0" }
  $lnk.Save()
 
-
-Write-Host ""
-Write-Host "
-█████   ███████  █████  ███████   ███   ██      ██   ██  █████ 
-██  ██  ██      ██   ██   ███    ██ ██  ██      ██   ██ ██   ██
-██   ██ █████   ██        ███   ███████ ██      ███████ ██   ██
-██  ██  ██      ██   ██   ███   ██   ██ ██      ██   ██ ██   ██
-█████   ███████  █████    ███   ██   ██ ███████ ██   ██  █████ 
-" -ForegroundColor Green
-
-
-Write-Host ""
-Write-Host "           GERADOR DE ATALHOS PARA APLICATIVOS WEB" -ForegroundColor Cyan
-Write-Host ""
-
-Write-Host "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" -ForegroundColor DarkCyan
 
 Write-Host "ATALHO '$Nome' CRIADO EM: $Desktop\$Nome.lnk" -ForegroundColor Green
 if ($temIcone) { Write-Host "ICONE APLICADO: $lnkIcon" -ForegroundColor Green }

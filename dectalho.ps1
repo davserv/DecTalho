@@ -1,11 +1,11 @@
 ﻿Clear-Host
 
 $items = @(
-    "DecTalho-2.0",
-    "DecTalho-1.0",
-    "DecTalho-1.1",
-    "Funcionalidade",
-    "Sair"
+    "DECTALHO-2.0",
+    "DECTALHO-1.0",
+    "DECTALHO-1.1",
+    "FUNCIONALIDADE",
+    "SAIR"
 )
 
 $index = 0
@@ -13,10 +13,10 @@ $selected = $null
 
 while ($null -eq $selected) {
 
-    Clear-Host
+Clear-Host
 
-    Write-Host ""
-    Write-Host "
+Write-Host ""
+Write-Host "
 █████   ███████  █████  ███████   ███   ██      ██   ██  █████ 
 ██  ██  ██      ██   ██   ███    ██ ██  ██      ██   ██ ██   ██
 ██   ██ █████   ██        ███   ███████ ██      ███████ ██   ██
@@ -67,27 +67,48 @@ while ($null -eq $selected) {
 }
 
 Clear-Host
-Write-Host "Selecionado: $selected" -ForegroundColor Green
+Write-Host "SELECIONADO: $selected" -ForegroundColor Green
 
 switch ($selected) {
 
-    "DecTalho-2.0" {
+    "DECTALHO-2.0" {
+
+        Write-Host ""
+Write-Host "
+█████   ███████  █████  ███████   ███   ██      ██   ██  █████ 
+██  ██  ██      ██   ██   ███    ██ ██  ██      ██   ██ ██   ██
+██   ██ █████   ██        ███   ███████ ██      ███████ ██   ██
+██  ██  ██      ██   ██   ███   ██   ██ ██      ██   ██ ██   ██
+█████   ███████  █████    ███   ██   ██ ███████ ██   ██  █████ 
+" -ForegroundColor Green
+
+
+Write-Host ""
+Write-Host "           GERADOR DE ATALHOS PARA APLICATIVOS WEB" -ForegroundColor Cyan
+Write-Host ""
+
+Write-Host "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" -ForegroundColor DarkCyan
+
         & ".\dectalho-2.0\dectalho-app.ps1"
     }
 
-    "DecTalho-1.0" {
+    "DECTALHO-1.0" {
         & ".\dectalho-1.0\DECTALHO-1.0.bat"
     }
 
-    "Funcionalidade" {
+    "DECTALHO-1.1" {
+        & ".\dectalho-1.1\dectalho.bat"
+    }
+
+    "FUNCIONALIDADE" {
         Start-Process "https://github.com/davserv/DecTalho"
         exit
     }
 
-    "Sair" {
+    "SAIR" {
         exit
     }
 }
 
-Read-Host "Pressione ENTER para sair"
+Read-Host "PRESSIONE ENTER PARA SAIR"
 Funcionalidade
