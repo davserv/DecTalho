@@ -93,6 +93,23 @@ Write-Host "━━━━━━━━━━━━━━━━━━━━━━�
     }
 
     "DECTALHO-1.0" {
+
+        Write-Host ""
+Write-Host "
+█████   ███████  █████  ███████   ███   ██      ██   ██  █████ 
+██  ██  ██      ██   ██   ███    ██ ██  ██      ██   ██ ██   ██
+██   ██ █████   ██        ███   ███████ ██      ███████ ██   ██
+██  ██  ██      ██   ██   ███   ██   ██ ██      ██   ██ ██   ██
+█████   ███████  █████    ███   ██   ██ ███████ ██   ██  █████ 
+" -ForegroundColor Green
+
+
+Write-Host ""
+Write-Host "           GERADOR DE ATALHOS PARA APLICATIVOS WEB" -ForegroundColor Cyan
+Write-Host ""
+
+Write-Host "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" -ForegroundColor DarkCyan
+
         & ".\dectalho-1.0\DECTALHO-1.0.bat"
     }
 
@@ -111,4 +128,3 @@ Write-Host "━━━━━━━━━━━━━━━━━━━━━━�
 }
 
 Read-Host "PRESSIONE ENTER PARA SAIR"
-Funcionalidade
