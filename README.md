@@ -6,6 +6,7 @@ GERADOR DE ATALHOS PARA APLICATIVOS WEB WINDOWS. APLICATIVO BY DEVELOPER DAVIDSO
 
 ----------
 
+## WINDOWS
 
 ### GIT CLONE 
 
@@ -19,6 +20,22 @@ git clone https://github.com/davserv/DecTalho.git
 
 ```bash
 cd DecTalho
+```
+
+--------
+
+
+## SCREENSHOT
+![screenshot](./vesionarios/screenshot.jpg)
+
+--------
+
+## LINUX
+
+### COMANDO
+
+```bash
+chmod +x dectalho.sh && ./dectalho.sh
 ```
 
 --------
