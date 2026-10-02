@@ -6,6 +6,12 @@ GERADOR DE ATALHOS PARA APLICATIVOS WEB LINUX. APLICATIVO BY DEVELOPER DAVIDSONB
 
 ----------
 
+| [HOME](https://davserv.github.io/DecTalho/) | [WINDOWS](https://davserv.github.io/DecTalho/dectalho-2.0) | [LINUX](https://davserv.github.io/DecTalho/dectalho-linux) | [SOBRE](#conecte-se-com-nós) |
+
+----------
+
+## LINUX
+
 
 ### GIT CLONE 
 
