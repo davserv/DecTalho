@@ -1,4 +1,4 @@
-<img src="../vesionarios/screenshot.jpg" min-width="150px" max-width="150px" width="150px" align="right" alt="">
+<img src="../vesionarios/DECTALHO.png" min-width="150px" max-width="150px" width="150px" align="right" alt="">
 
 # DECTALHO.
 
