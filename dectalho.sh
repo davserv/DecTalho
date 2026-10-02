@@ -3,8 +3,8 @@
 options=(
     "DECTALHO-FIREFOX"
     "DECTALHO-CHROME"
-    "Funcionalidade"
-    "Sair"
+    "FUNCIONALIDADE"
+    "SAIR"
 )
 
 selected=0
@@ -76,23 +76,23 @@ clear
 case "${options[$selected]}" in
 
     "DECTALHO-FIREFOX")
-        echo "Executando DECTALHO-FIREFOX..."
+        echo "EXECUTANDO DECTALHO-FIREFOX..."
         chmod +x ./dectalho-linux/criar-atalho-firefox.sh && ./dectalho-linux/criar-atalho-firefox.sh
         ;;
 
     "DECTALHO-CHROME")
-        echo "Executando DECTALHO-CHROME..."
+        echo "EXECUTANDO DECTALHO-CHROME..."
         chmod +x ./dectalho-linux/chrome/criar-atalho-app.sh && ./dectalho-linux/chrome/criar-atalho-app.sh
         ;;
 
-    "Funcionalidade")
-        echo "Funcionalidade..."
+    "FUNCIONALIDADE")
+        echo "FUNCIONALIDADE..."
         echo ""
-        echo "https://github.com/davserv/DecTalho"
+        echo "https://github.com/davserv/DecTalho/tree/main/dectalho-linux"
         echo ""
         ;;
 
-    "Sair")
+    "SAIR")
         exit 0
         ;;
 esac
