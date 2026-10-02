@@ -29,6 +29,7 @@ read -p "ENDERECO DO SITE: " urls
 
 echo
 echo "Gerando..."
+clear
 
 chmod +x criar-atalho-app.sh
 ./criar-atalho-app.sh "$nomes" "$urls" "" app

@@ -1,14 +1,35 @@
 ﻿#!/usr/bin/env bash
 # Uso: ./criar-atalho-firefox.sh "Nome" "URL" [icone.png] [janela|app|kiosk]
+
+GREEN='\033[1;32m'
+CYAN='\033[1;36m'
+NC='\033[0m'
+
+echo -e "${GREEN}"
+cat << "BANNER"
+
+█████   ███████  █████  ███████   ███   ██      ██   ██  █████ 
+██  ██  ██      ██   ██   ███    ██ ██  ██      ██   ██ ██   ██
+██   ██ █████   ██        ███   ███████ ██      ███████ ██   ██
+██  ██  ██      ██   ██   ███   ██   ██ ██      ██   ██ ██   ██
+█████   ███████  █████    ███   ██   ██ ███████ ██   ██  █████
+
+         GERADOR DE ATALHOS PARA APLICATIVOS WEB
+
+BANNER
+
+echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
+echo
+
 set -euo pipefail
 
 if [ $# -ge 2 ]; then
     NOME="$1"; URL="$2"; ICONO="${3:-}"; MODO="${4:-janela}"
 else
-    read -rp "Nome do atalho: " NOME
-    read -rp "Endereco do site: " URL
-    read -rp "Icone (caminho/URL, vazio=automatico): " ICONO
-    read -rp "Modo [janela/app/kiosk] (enter=janela): " MODO
+    read -rp "NOME DO ATALHO: " NOME
+    read -rp "ENDEREÇO DO SITE: " URL
+    read -rp "ÍCONE (CAMINHO/URL, VAZIO=AUTOMÁTICO): " ICONO
+    read -rp "MODO [JANELA/APP/KIOSK] (ENTER=JANELA): " MODO
 fi
 MODO="${MODO:-janela}"
 case "$MODO" in janela|app|kiosk) ;; *) MODO=janela ;; esac

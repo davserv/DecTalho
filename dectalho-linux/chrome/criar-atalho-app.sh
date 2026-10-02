@@ -2,6 +2,26 @@
 # criar-atalho-app.sh - cria atalho "modo aplicativo" no Linux (Chromium/Chrome/Edge/Brave/Vivaldi)
 # Uso: ./criar-atalho-app.sh "Nome" "URL" [icone.png] [navegador]
 
+GREEN='\033[1;32m'
+CYAN='\033[1;36m'
+NC='\033[0m'
+
+echo -e "${GREEN}"
+cat << "BANNER"
+
+█████   ███████  █████  ███████   ███   ██      ██   ██  █████ 
+██  ██  ██      ██   ██   ███    ██ ██  ██      ██   ██ ██   ██
+██   ██ █████   ██        ███   ███████ ██      ███████ ██   ██
+██  ██  ██      ██   ██   ███   ██   ██ ██      ██   ██ ██   ██
+█████   ███████  █████    ███   ██   ██ ███████ ██   ██  █████
+
+         GERADOR DE ATALHOS PARA APLICATIVOS WEB
+
+BANNER
+
+echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
+echo
+
 set -euo pipefail
 
 # ---------- modo interativo se nao passar argumentos ----------

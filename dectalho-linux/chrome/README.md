@@ -1,4 +1,4 @@
-<img src="../vesionarios/DECTALHO.png" min-width="150px" max-width="150px" width="150px" align="right" alt="">
+<img src="../../vesionarios/DECTALHO.png" min-width="150px" max-width="150px" width="150px" align="right" alt="">
 
 # DECTALHO.
 
@@ -18,7 +18,7 @@ git clone https://github.com/davserv/DecTalho.git
 ### CD LOCAL PASTA
 
 ```bash
-cd dectalho-linux
+cd dectalho-linux/chrome
 ```
 
 --------
@@ -33,7 +33,7 @@ chmod +x dectalho.sh && ./dectalho.sh
 
 
 ## SCREENSHOT
-![screenshot](../vesionarios/screenshotl.jpg)
+![screenshot](../../vesionarios/screenshotl.jpg)
 
 --------
 

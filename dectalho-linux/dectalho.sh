@@ -29,6 +29,7 @@ read -p "ENDERECO DO SITE: " urls
 
 echo
 echo "Gerando..."
+clear
 
 chmod +x criar-atalho-firefox.sh
 ./criar-atalho-firefox.sh "$nomes" "$urls" "" app
